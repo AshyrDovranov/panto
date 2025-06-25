@@ -1,0 +1,22 @@
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    gap: 20px;
+    margin-bottom: 86px;
+
+
+}
+.nav_logo {
+    align-self: center;
+  
+}
+
+.nav_btn {
+    display: none;
+
+    @include tablet() {
+        display: block;
+    }
+}
+
+
